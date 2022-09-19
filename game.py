@@ -1,18 +1,16 @@
-from pygame import font
-from pygame import display
-from pygame import init
-from pygame import time
-from pygame import draw
-
-from pygame import K_UP
+import ResourceBundle as gameBundle
 from pygame import K_DOWN
 from pygame import K_LEFT
 from pygame import K_RIGHT
-
-from pygame.locals import QUIT
-from pygame.locals import KEYDOWN
+from pygame import K_UP
+from pygame import display
+from pygame import draw
+from pygame import font
+from pygame import init
 from pygame import quit
-import ResourceBundle as gameBundle
+from pygame import time
+from pygame.locals import KEYDOWN
+from pygame.locals import QUIT
 
 values = gameBundle.get_bundle("values")
 

@@ -1,11 +1,11 @@
-from pygame import font
-from pygame import event
 from pygame import display
-from time import sleep
+from pygame import event
+from pygame import font
 from pygame import time
-import game
+from time import sleep
 
 import apple as ap
+import game
 import snake as sn
 
 # Cria o jogo como um objeto, inicializando o pygame e recuperando os valores do overlay (values.properties).
